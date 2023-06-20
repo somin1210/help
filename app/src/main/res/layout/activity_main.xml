@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="411dp"
+        android:layout_height="803dp"
+        android:background="#E6E6E6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/color"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#E6E6E6"
+        android:text="컬러 테마"
+        android:textColorHighlight="#E6E6E6"
+        android:textColorLink="#E5E5E5"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mode"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#E6E6E6"
+        android:text="포춘쿠키"
+        android:textColorHighlight="#E6E6E6"
+        android:textColorLink="#E5E5E5"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mode2"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#E6E6E6"
+        android:text="나의 씨앗 보기"
+        android:textColorHighlight="#E6E6E6"
+        android:textColorLink="#E5E5E5"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/setting"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#E6E6E6"
+        android:text="설정"
+        android:textColorHighlight="#E6E6E6"
+        android:textColorLink="#E5E5E5"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/funtion"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:background="#E6E6E6"
+        android:text="기능"
+        android:textColorHighlight="#E6E6E6"
+        android:textColorLink="#E5E5E5"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:background="#00ff0000"
+        android:layout_width="360dp"
+        android:layout_height="54dp"
+        android:text="  영양제 복용 체크"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="360dp"
+        android:layout_height="54dp"
+        android:text="  물 섭취량 체크"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="360dp"
+        android:layout_height="54dp"
+        android:text="  체크리스트"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="360dp"
+        android:layout_height="54dp"
+        android:text="  중요 일정 알림받기"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="360dp"
+        android:layout_height="54dp"
+        android:text="  동기부여모드"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="529dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
