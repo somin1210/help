@@ -38,7 +38,8 @@
         android:background="#FFFFFF"
         android:text="  위젯 색상"
         android:textColor="#000000"
-        android:gravity="center_vertical" />
+        android:gravity="center_vertical"
+        android:textSize="20sp"/>
     <Button
         android:id="@+id/button2"
         android:layout_margin="15dp"
@@ -47,7 +48,8 @@
         android:background="#FFFFFF"
         android:text="  컬러 테마"
         android:textColor="#000000"
-        android:gravity="center_vertical" />
+        android:gravity="center_vertical"
+        android:textSize="20sp"/>
     <Button
         android:id="@+id/button3"
         android:layout_margin="15dp"
@@ -56,7 +58,8 @@
         android:background="#FFFFFF"
         android:text="  글자 크기"
         android:textColor="#000000"
-        android:gravity="center_vertical" />
+        android:gravity="center_vertical"
+        android:textSize="20sp"/>
     <Button
         android:id="@+id/button4"
         android:layout_margin="15dp"
@@ -65,7 +68,8 @@
         android:background="#FFFFFF"
         android:text="  좌우 대칭"
         android:textColor="#000000"
-        android:gravity="center_vertical" />
+        android:gravity="center_vertical"
+        android:textSize="20sp"/>
 
 
 </LinearLayout>
